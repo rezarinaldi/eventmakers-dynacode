@@ -1,3 +1,3 @@
 export const Header = () => {
-  return <header className="font-semibold">Devscale ID.</header>;
+  return <header className="font-semibold">Eventmakers Dynacode.</header>;
 };
