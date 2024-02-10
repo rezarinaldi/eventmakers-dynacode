@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { API_URL } from '@/config/apiUrl' 
 import toast from 'react-hot-toast'
 import { useRouter } from 'next/navigation' 
+import Cookies from "js-cookie";
+
 
 export const useLogin = () => {
     const router = useRouter();
@@ -31,6 +33,10 @@ export const useLogin = () => {
         });
 
         const data = await res.json();
+        console.log(data)
+
+        Cookies.set("token", data.token);
+
         if (!data){
            setLoading(false)
             // console.log("error!");
