@@ -18,7 +18,7 @@ export const EventDashboard = () => {
             <button className="btn btn-primary">Explore Events</button>
           </Link>
           <p className="py-6 font-semibold">
-            Let's make your event dreams a reality!
+            Let`s make your event dreams a reality!
           </p>
         </div>
       </div>
