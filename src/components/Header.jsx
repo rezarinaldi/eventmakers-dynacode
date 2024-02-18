@@ -27,6 +27,14 @@ export const Header = () => {
           >
             <li>
               <Link
+                href="/"
+                className="font-semibold hover:text-white hover:bg-neutral text-[16px]"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/dashboard"
                 className="font-semibold hover:text-white hover:bg-neutral text-[16px]"
               >
@@ -35,7 +43,7 @@ export const Header = () => {
             </li>
             <li>
               <Link
-                href={`/dashboard/#events`}
+                href={`/#events`}
                 className="font-semibold hover:text-white hover:bg-neutral text-[16px]"
               >
                 Events
@@ -43,12 +51,20 @@ export const Header = () => {
             </li>
           </ul>
         </div>
-        <Link href="/dashboard" className="btn btn-ghost text-xl font-bold">
+        <Link href="/" className="btn btn-ghost text-xl font-bold">
           🎪 DynaVent
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
+          <li>
+            <Link
+              href="/"
+              className="font-semibold hover:text-white hover:bg-neutral text-[16px]"
+            >
+              Home
+            </Link>
+          </li>
           <li>
             <Link
               href="/dashboard"
@@ -59,7 +75,7 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              href={`/dashboard/#events`}
+              href={`/#events`}
               className="font-semibold hover:text-white hover:bg-neutral text-[16px]"
             >
               Events
@@ -70,6 +86,22 @@ export const Header = () => {
       <div className="navbar-end">
         <ul className="menu menu-horizontal px-1">
           <li>
+            <Link
+              href={`/auth/login`}
+              className="font-semibold text-neutral hover:text-white hover:bg-neutral text-[16px]"
+            >
+              Log In
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/auth/register`}
+              className="font-semibold text-primary hover:text-white hover:bg-primary text-[16px]"
+            >
+              Register
+            </Link>
+          </li>
+          {/* <li>
             <details>
               <summary className="font-semibold text-[16px]">
                 🎫 User Dynacode
@@ -85,7 +117,7 @@ export const Header = () => {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
