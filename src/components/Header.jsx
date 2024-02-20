@@ -1,4 +1,6 @@
 import Link from "next/link";
+// import { Login } from "./auth/components/Login";
+// import { Register } from "./auth/components/Register";
 
 export const Header = () => {
   return (
@@ -87,7 +89,8 @@ export const Header = () => {
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link
-              href={`/auth/login`}
+              // href={`/auth/login`}
+              href={`/login`}
               className="font-semibold text-neutral hover:text-white hover:bg-neutral text-[16px]"
             >
               Log In
@@ -95,11 +98,13 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              href={`/auth/register`}
+              // href={`/auth/register`}
+              href={`/register`}
               className="font-semibold text-primary hover:text-white hover:bg-primary text-[16px]"
             >
               Register
             </Link>
+            
           </li>
           {/* <li>
             <details>

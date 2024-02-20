@@ -7,15 +7,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">🎪 DynaVent</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+              Selamat Datang di Dynavent. Explore The Best Event Happening Around You.
             </p>
-            <Link href={`/dashboard`}>
+            <Link href={`/login`}>
+            {/* <Link href={`/dashboard`}> */}
               <button className="btn btn-neutral mr-3">Get Started</button>
             </Link>
             <Link href="/#events">
@@ -34,8 +35,8 @@ export default function Home() {
         "
         >
           <h2 className="text-center">All Events</h2>
-          <SearchEvents />
-          <AllEvents />
+          {/* <SearchEvents /> */}
+           <AllEvents />
         </div>
       </section>
       <Footer />
