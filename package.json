@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "boring-avatars": "^1.10.1",
     "framer-motion": "^11.0.3",
+    "jose": "^5.2.2",
     "js-cookie": "^3.0.5",
     "next": "14.1.0",
     "react": "^18",
