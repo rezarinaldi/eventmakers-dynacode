@@ -1,8 +1,8 @@
-# Eventmakers Dynacode (moved to [@panjips/eventmakers](https://github.com/panjips/eventmakers))
+# DynaVent (moved to [@panjips/eventmakers](https://github.com/panjips/eventmakers))
 
 ## Disclaimer
 
-Starting from 16 February 2024, all the development will be moved into an one public organization under [DynaVent (@panjips/eventmakers)](https://github.com/panjips/eventmakers).
+Starting from 18 February 2024, all the development will be moved into an one public organization under [DynaVent (@panjips/eventmakers)](https://github.com/panjips/eventmakers).
 
 ---
 
